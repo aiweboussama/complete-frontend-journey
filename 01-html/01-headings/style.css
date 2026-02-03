@@ -1,0 +1,31 @@
+/* Basic Reset */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+/* Page Layout */
+.page {
+  width: 80%;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Headings Styling */
+h1 {
+  color: #222;
+}
+
+section h2 {
+  color: #0066cc;
+}
+
+section h3,
+section h4,
+section h5,
+section h6 {
+  margin: 10px 0;
+}
