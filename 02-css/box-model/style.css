@@ -1,17 +1,17 @@
- /* 1️⃣ Reset default spacing */
+ /*  Reset default spacing */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* 2️⃣ Body padding */
+/* Body padding */
 body {
   padding: 20px;
   background-color: #f4f4f4;
 }
 
-/* 3️⃣ Box example */
+/* Box example */
 .box {
   width: 200px;
   height: 100px;
