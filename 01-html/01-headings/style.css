@@ -1,8 +1,17 @@
 /* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
-  background-color: #f2f2f2;
+  background-color: #f4f7ff;
+  color: #0f172a;
+  line-height: 1.7;
+  padding: 2.5rem;
+  font-size: 16px;
 }
 
 /* Page Layout */
@@ -17,10 +26,12 @@ body {
 /* Headings Styling */
 h1 {
   color: #222;
+  margin-bottom: 12px;
 }
 
 section h2 {
   color: #0066cc;
+  margin: 16px 0 8px;
 }
 
 section h3,
