@@ -3,6 +3,19 @@
 This lesson is about using headings to give a page a clear structure.
 Headings are not only for bigger text; they show how content is organized.
 
+## Heading tags overview
+
+| Tag | Purpose | Default Font Size | Default Font Weight |
+| --- | --- | --- | --- |
+| `<h1>` | Main page title | 2em (≈32px) | bold (700) |
+| `<h2>` | Section heading | 1.5em (≈24px) | bold (700) |
+| `<h3>` | Subsection heading | 1.17em (≈18.72px) | bold (700) |
+| `<h4>` | Sub-subsection | 1em (≈16px) | bold (700) |
+| `<h5>` | Deeper level heading | 0.83em (≈13.28px) | bold (700) |
+| `<h6>` | Deepest level heading | 0.67em (≈10.72px) | bold (700) |
+
+Note: Sizes are based on the browser default base font size of 16px.
+
 ## Files in this folder
 
 - `01-index.html`: shows all heading levels from `h1` to `h6`
@@ -51,23 +64,6 @@ Use headings in order when possible:
 4. `h4` to `h6` for deeper levels only when needed
 
 Try not to jump from `h1` straight to `h4` unless there is a real structural reason.
-
-## Examples outside this project
-
-1. Blog article
-   `h1`: "How to Start Running"
-   `h2`: "Shoes", "Training Plan", "Recovery"
-   `h3`: under "Training Plan", you might have "Week 1" and "Week 2"
-
-2. Documentation page
-   `h1`: "React Router Guide"
-   `h2`: "Installation", "Basic Routes", "Nested Routes"
-   `h3`: under "Basic Routes", "Route Params"
-
-3. Product page
-   `h1`: product name
-   `h2`: "Features", "Specifications", "Reviews"
-   `h3`: inside "Specifications", headings like "Display" and "Battery"
 
 ## Common mistakes to avoid
 
