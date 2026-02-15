@@ -1,0 +1,20 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* External CSS */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+p {
+  color: #444;
+}
