@@ -1,0 +1,15 @@
+p {
+  color: green;        /* element */
+}
+
+.text {
+  color: blue;         /* class */
+}
+
+#title {
+  color: red;          /* id */
+}
+
+.force {
+  color: purple !important;  /* important */
+}

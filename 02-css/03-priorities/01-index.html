@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Priority Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ID beats class -->
+  <p id="title" class="text">
+    This should be RED (ID wins)
+  </p>
+
+  <!-- Inline beats ID -->
+  <p id="title" style="color: black;">
+    This should be BLACK (inline wins)
+  </p>
+
+  <!-- !important beats inline -->
+  <p class="force" style="color: black;">
+    This should be PURPLE (!important wins)
+  </p>
+
+</body>
+</html>
