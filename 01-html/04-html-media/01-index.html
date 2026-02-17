@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Html media</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 20px;
+        background-color: #f4f4f4;
+      }
+      h1 {
+        margin: 0;
+        color: #1e3a5f;
+      }
+      .title-box {
+        width: fit-content;
+        margin: 0 auto 30px;
+        padding: 10px 18px;
+        border-radius: 10px;
+        background-color: #dbeafe;
+      }
+      h2 {
+        margin-bottom: 20px;
+        color: #444;
+      }
+      p {
+        color: #666;
+        margin-bottom: 15px;
+      }
+      img {
+        margin-bottom: 15px;
+        width: 480px;
+        border-radius: 10px;
+      }
+      section {
+        padding: 20px;
+        margin-bottom: 15px;
+        border-radius: 10px;
+        background-color: white;
+      }
+      audio,
+      video {
+        margin-bottom: 15px;
+        margin-top: 10px;
+        display: block;
+      }
+      video#wow {
+        width: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="title-box"><h1>front end development</h1></div>
+    <section>
+      <h2>images in html</h2>
+      <p>Examples of images displayed on a webpage</p>
+      <img
+        src="images/geralt.jpg"
+        alt="oops"
+        title="ai generated image"
+        height="400px"
+      />
+      <img
+        src="images/sahara.jpg"
+        alt="oops"
+        title="night moon"
+        height="400px"
+      />
+      <br />
+      <img
+        src="images/cat.png"
+        alt="oops"
+        title="cat"
+        height="400px"
+      />
+      <br />
+      <img
+        src="images/snow-monkey.jpg"
+        alt="oops"
+        title="snow monkey"
+        height="400px"
+      />
+      <img
+        src="images/yuri-night.jpg"
+        alt="oops"
+        title="night view"
+        height="400px"
+      />
+    </section>
+    <section>
+      <h2>Audio in html</h2>
+      <p>Example of an audio file:</p>
+      <audio
+        controls
+        muted
+      >
+        <source src="audio/africa-tabla.mp3" />
+        your browser does not support this audio
+      </audio>
+      <audio
+        controls
+        loop
+      >
+        <source
+          src="audio/funny-laughing.mp3"
+          type="audio/mpeg"
+        />
+        your browser does not support this audio
+      </audio>
+    </section>
+    <section>
+      <h2>video in html:</h2>
+      <p>Exanmple of a video file:</p>
+      <video
+        controls
+        width="400"
+      >
+        <source
+          src="videos/128646-741704858_small.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <video
+        controls
+        id="wow"
+        muted
+      >
+        <source
+          src="videos/168447-839220680_small.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </section>
+  </body>
+</html>
