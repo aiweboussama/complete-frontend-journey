@@ -162,5 +162,3 @@ space. - Avoid too much padding on small screens. - Combine padding with
 ```
 
 ------------------------------------------------------------------------
-
-Happy Coding 🚀
