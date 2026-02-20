@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Margin</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #f4f4f4;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 20px;
+        line-height: 1.6;
+      }
+
+      .main {
+        font-size: 34px;
+        background-color: white;
+        border-left: 4px double burlywood;
+        padding: 12px;
+        width: fit-content;
+        margin: 0 auto 24px;
+      }
+
+      .part1,
+      .part2 {
+        background-color: white;
+        border: 2px solid #202020;
+        padding: 16px;
+        width: min(900px, 95%);
+        margin: 0 auto 20px;
+      }
+
+      .part1 h2,
+      .part2 h2 {
+        width: fit-content;
+        border-bottom: 2px solid #000;
+        margin-bottom: 10px;
+        padding-bottom: 4px;
+      }
+
+      .demo-box {
+        border: 2px solid #2e2e2e;
+        padding: 12px;
+        font-size: 18px;
+      }
+
+      .first {
+        background-color: #e8f5ff;
+        margin-bottom: 12px;
+      }
+
+      .second {
+        background-color: #fff4e6;
+        margin: 24px 0 8px 32px;
+      }
+
+      .third {
+        background-color: #e8ffe8;
+        margin-left: 60px;
+      }
+
+      .card {
+        width: 320px;
+        border: 2px dashed #404040;
+        padding: 16px;
+        background-color: #fffbe6;
+        margin: 20px auto 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="main">Margin implementation in CSS:</h1>
+
+    <div class="part1">
+      <h2>Using paragraphs:</h2>
+      <p class="demo-box first">This paragraph uses margin-bottom: 12px.</p>
+      <p class="demo-box second">This paragraph uses margin: 24px 0 8px 32px.</p>
+      <p class="demo-box third">This paragraph uses margin-left: 60px.</p>
+    </div>
+
+    <div class="part2">
+      <h2>Centering with margin auto:</h2>
+      <div class="card">This box is centered using margin: 20px auto 0.</div>
+    </div>
+  </body>
+</html>
